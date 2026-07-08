@@ -5,11 +5,11 @@
 </head>
 <body>
 
-<h1>Hello DevOps 🚀</h1>
+<h1>Hello DevOps </h1>
 
 <h2>WAR Deployment Successful</h2>
 
-<p>Git → Jenkins → Maven → Tomcat</p>
+<p>Git -> Jenkins -> Maven -> Tomcat</p>
 
 <p>If you can see this page, your pipeline is working.</p>
 
