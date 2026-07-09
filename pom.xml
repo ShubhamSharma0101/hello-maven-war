@@ -13,4 +13,12 @@
 
     <name>Hello WAR</name>
 
+<properties>
+
+    <sonar.host.url>http://43.204.216.199:9000</sonar.host.url>
+
+    <sonar.token>squ_ca03a50765007ada94991f1055242832596cc3d3</sonar.token>
+
+</properties>
+
 </project>
