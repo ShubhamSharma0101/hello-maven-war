@@ -13,12 +13,44 @@
 
     <name>Hello WAR</name>
 
-<properties>
+    <properties>
 
-    <sonar.host.url>http://43.204.216.199:9000</sonar.host.url>
+        <!-- Java Version -->
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
 
-    <sonar.token>squ_ca03a50765007ada94991f1055242832596cc3d3</sonar.token>
+        <!-- Project Encoding -->
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-</properties>
+        <!-- SonarQube Server -->
+        <sonar.host.url>http://52.66.245.114:9000</sonar.host.url>
+
+    </properties>
+
+    <build>
+
+        <plugins>
+
+            <!-- Java Compiler -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.14.0</version>
+                <configuration>
+                    <source>21</source>
+                    <target>21</target>
+                </configuration>
+            </plugin>
+
+            <!-- WAR Plugin -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>3.4.0</version>
+            </plugin>
+
+        </plugins>
+
+    </build>
 
 </project>
