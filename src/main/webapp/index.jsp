@@ -9,7 +9,7 @@
 
 <h2>WAR Deployment Successful Pipeline  Working !</h2>
 
-<p>Git -> Jenkins -> Maven -> Sonar-> Tomcat</p>
+<p><strong>Git -> Jenkins -> Maven -> Sonar-> Tomcat</strong></p>
 
 <p>If you can see this page, your pipeline is working.</p>
 
